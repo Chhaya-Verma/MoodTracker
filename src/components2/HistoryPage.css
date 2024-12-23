@@ -1,0 +1,121 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background: linear-gradient(to bottom, #f0f8ff, #e6f7ff);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-height: 100vh;
+}
+
+.history-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px #ccc;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.calendar-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.graph-container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.graph-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.entry {
+  width: 100%;
+  max-width: 1300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.entry p {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.entry .sentiment {
+  font-size: 1rem;
+  color: #777;
+  font-style: italic;
+}
+
+.entry button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.entry button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+textarea {
+  width: 100%;
+  max-width: 900px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: vertical;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+

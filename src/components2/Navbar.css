@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #4CAF50;
+  }
+  
